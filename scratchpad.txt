@@ -10,6 +10,12 @@ Promo blocks
 - Description
 - Image
 
+Main content
+-
+
+Testimonial
+-
+
 Newsletter
 - Title
 - Casl text
