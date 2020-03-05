@@ -98,7 +98,7 @@
   <div id="PageContainer" class="page-container">
     <main class="main-content" role="main">
       {% unless request.page_type == "index" %}
-        <div class="wrapper">
+        <div class="{% unless page.template_suffix contains 'summer-promotion' %} wrapper {% endunless %}">
       {% endunless %}
         {{ content_for_layout }}
       {% unless request.page_type == "index" %}

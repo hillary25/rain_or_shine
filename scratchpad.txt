@@ -1,0 +1,26 @@
+Banner
+- Background image
+- Subtitle
+- Main title
+
+Promo blocks
+- Repeatable blocks
+- Subtitle
+- Main title
+- Description
+- Image
+
+Main content
+-
+
+Testimonial
+-
+
+Newsletter
+- Title
+- Casl text
+- Input for email
+
+Social
+- Pull from main settings
+- Social icons
