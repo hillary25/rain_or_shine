@@ -220,6 +220,8 @@
             {% endcomment %}
             {% include 'product-price', variant: current_variant %}
 
+            <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+
             {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
               <div class="product-single__policies rte">
                 {%- if shop.taxes_included -%}
@@ -328,6 +330,8 @@
           <div class="product-single__description rte" itemprop="description">
             {{ product.description }}
           </div>
+
+          <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
 
           {% if section.settings.social_sharing_products %}
             {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
